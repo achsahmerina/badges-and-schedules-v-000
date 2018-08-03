@@ -19,4 +19,4 @@ def assing_rooms(name, number)
       counter += 1
     end
     return new_array
-  end
+end
