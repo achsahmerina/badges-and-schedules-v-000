@@ -1,1 +1,22 @@
-# Write your code here.
+def badge_maker(name)
+  name = "Arel"
+  return "Hello, my name is #{name}."
+end
+
+def batch_badge_creator(array)
+    new_array = []
+      array.each do |name|
+        new_array.push("Hello, my name is #{name}.")
+      end
+      return new_array
+end
+
+def assing_rooms(name, number)
+  new_array = []
+  counter = 1
+    array.each do |name|
+      new_array.push("Hello, #{name}! You'll be assignmed to room #{counter}!")
+      counter += 1
+    end
+    return new_array
+  end
